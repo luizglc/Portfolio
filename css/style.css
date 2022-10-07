@@ -257,6 +257,15 @@
 
 /* ========== Responsive ============ */
 
+@media (max-width: 912px) {
+
+  .home {
+    text-align: center;
+    padding: 500px 0px;
+  }
+
+}
+
 @media (max-width: 888px) {
   .home .text1 {
     font-size: 40px;
@@ -400,7 +409,7 @@
 
 }
 
-@media (max-width: 535px) {
+@media (max-width: 540px) {
 
   .home .text1 {
     font-size: 25px;
@@ -442,7 +451,7 @@
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .home {
     padding: 200px 0px;
   }
