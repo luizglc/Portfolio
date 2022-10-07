@@ -24,7 +24,9 @@
 
 <body id="start">
   <nav class="navBar">
-    <ul class="nav justify-content-center">
+
+    <ul class="nav justify-content-center" id="moboNav">
+
       <li class="nav-item">
         <a class="nav-link active" href="#start">Início</a>
       </li>
@@ -38,6 +40,10 @@
         <a class="nav-link" href="#contact">Contato</a>
       </li>
     </ul>
+    <div id="menu-btn">
+      <i class="bi bi-list"></i>
+    </div>
+
   </nav>
   <section class="banner">
     <div class="home">
@@ -106,7 +112,18 @@
     <div class="container">
       <div class="row">
         <h1>- CONTATO -</h1>
-        <div class="form-container">
+        <div class="col-md-6 leftContact">
+          <strong>Vamos conversar?</strong>
+          <p>Me envie um e-mail agora mesmo!</p>
+          <div class="iconsContact">
+            <p>Caso prefira, você também pode entrar em contato por Whatsapp ou Linkedin:</p>
+            <a href="https://wa.me/5511993177225" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/luiz-gustavo-58a322230/" target="_blank"><i
+                class="bi bi-linkedin"></i></a>
+            <i></i>
+          </div>
+        </div>
+        <div class="form-container col-md-6">
           <form action="" method="" class="row">
             <div class="formName form col-md-6">
               <input class="form-control " type="text" placeholder="Nome" name="name" required />
@@ -118,15 +135,14 @@
               <input class="form-control" type="text" placeholder="Assunto" name="assunto" required />
             </div>
             <div class="formTextArea form">
-              <textarea class="form-control" name="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+              <textarea class="form-control" name="mensagem" cols="30" rows="10" placeholder="Mensagem"
+                required></textarea>
             </div>
             <div class="formButton col-12">
               <button class="btn btn-primary" type="submit">Enviar</button>
             </div>
           </form>
         </div>
-
-
       </div>
     </div>
   </section>

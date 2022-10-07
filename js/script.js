@@ -4,7 +4,7 @@ window.addEventListener('scroll', function () {
 })
 
 
-let messageArray = ['Desenvolvedor Web - Full Stack'];
+let messageArray = ['Desenvolvedor Web - Front End'];
 let textPosition = 0;
 let speed = 100;
 typewriter = () => {
@@ -21,7 +21,7 @@ window.addEventListener('load', typewriter)
 
 const apiGit = document.querySelector('.projects-container')
 
-function getApiGitHub() {
+function apiGitHub() {
   fetch('https://api.github.com/users/luizglc/repos')
     .then(async res => {
 
@@ -47,6 +47,14 @@ function getApiGitHub() {
     }).catch(e => console.log(e))
 }
 
-getApiGitHub()
+apiGitHub()
 
+// Nav Bar 
 
+const menuBtn = document.getElementById('menu-btn');
+
+function toggleMenu() {
+  const moboNav = document.getElementById('moboNav');
+  moboNav.classList.toggle('active');
+}
+menuBtn.addEventListener('click', toggleMenu);
