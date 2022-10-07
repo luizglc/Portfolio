@@ -301,6 +301,10 @@
 
   }
 
+  .home {
+    padding: 400px 0px;
+  }
+
 }
 
 @media (max-width: 710px) {
@@ -323,6 +327,10 @@
     width: 310px;
     height: 300px;
     margin-bottom: 30px;
+  }
+
+  .home {
+    padding: 350px 0px;
   }
 
 }
@@ -386,6 +394,10 @@
     font-size: 25px;
   }
 
+  .home {
+    padding: 350px 0px;
+  }
+
 }
 
 @media (max-width: 535px) {
@@ -424,4 +436,30 @@
     padding: 0px 10px;
 
   }
+
+  .home {
+    padding: 200px 0px;
+  }
+}
+
+@media (max-width: 400px) {
+  .home {
+    padding: 200px 0px;
+  }
+
+  .home .text1 {
+    font-size: 30px;
+
+  }
+
+  .home .text2 {
+    font-size: 30px;
+
+  }
+
+  .home .text3 {
+    font-size: 21px;
+    margin-top: 20px;
+  }
+
 }
