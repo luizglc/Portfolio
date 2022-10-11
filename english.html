@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -14,95 +14,138 @@
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-  <!-- AOS -->
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- My Css -->
   <link rel="stylesheet" href="./css/style.css">
   <!-- My Script -->
   <script src="./js/script.js" defer></script>
 
-  <title>My Port</title>
+  <title>Porfolio</title>
 </head>
 
 <body id="start">
+
+  <!-- Nav bar -->
   <nav class="navBar">
-    <ul class="nav justify-content-center">
+    <ul class="nav justify-content-center" id="moboNav">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#start">Start</a>
+        <a class="nav-link active" href="#start">Start</a>
       </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#About">Sobre</a>
+      </li> -->
       <li class="nav-item">
-        <a class="nav-link" href="#About">About</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#contact">Contact</a>
       </li>
-      <li class="nav-item flags">
-        <a href="index.html"><img src="./img/brazil.png" alt=""></a>
-        <a href="english.html"><img src="./img/united-states.png" alt=""></a>
-      </li>
     </ul>
+    <div id="menu-btn">
+      <i class="bi bi-list"></i>
+    </div>
   </nav>
 
-
-  <section class="banner">
-    <div class="home">
-      <div class=" container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div data-aos="zoom-in" data-aos-duration="1500">
-              <div class="text1">Hello world, my name is <span class="text2">Gustavo.</span></div>
-            </div>
-            <div class="text3">Web Developer</div>
-            <div class="socialIcons" data-aos="flip-left" data-aos-duration="2500">
-              <a href="https://github.com/luizglc" class="icons" target="_blank"><i class="bi bi-github"></i></a>
-              <a href="https://www.linkedin.com/in/luiz-gustavo-58a322230/" class="icons" target="_blank"><i
-                  class="bi bi-linkedin"></i></a>
+  <div id="removeMenu">
+    <!-- First Section -->
+    <section class="banner">
+      <div class="home">
+        <div class=" container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div>
+                <div class="text1">Hello world, my name is <span class="text2">Gustavo.</span></div>
+              </div>
+              <div class="text3">Web Developer</div>
+              <div class="socialIcons">
+                <a href="https://github.com/luizglc" class="icons" target="_blank"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/luiz-gustavo-58a322230/" class="icons" target="_blank"><i
+                    class="bi bi-linkedin"></i></a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="about" id="About">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6" data-aos="fade-right" data-aos-duration="2500">
-          <img src="./img/oldmancode.gif" alt="oldmancode" class="img-fluid">
-        </div>
-        <div class="col-md-6 ddd" data-aos="fade-left" data-aos-duration="2500">
-          <h1>- About me -</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ut consequatur excepturi libero ipsa,
-            doloremque eaque similique. Quasi molestias, recusandae, voluptates quae cupiditate blanditiis, praesentium
-            placeat aspernatur itaque voluptatem repudiandae suscipit ab magnam amet modi distinctio! Et aut fuga
-            adipisci odit a, nemo corporis eveniet. Natus obcaecati, quos earum dicta suscipit exercitationem temporibus
-            necessitatibus sit quam, architecto commodi dolorum accusamus omnis vel repellat optio deleniti magnam sint
-            perspiciatis voluptas aliquam accusantium odio molestias ab! Dolor magni mollitia quia, ullam pariatur
-            beatae, minus ipsum aspernatur expedita recusandae, dicta autem laboriosam debitis cum dolore inventore
-            placeat culpa harum ipsa fugiat nostrum cumque quam explicabo. Molestiae explicabo nostrum dicta similique
-            incidunt accusantium? Incidunt, corrupti neque impedit cupiditate velit enim aperiam quam assumenda voluptas
-            reiciendis, harum omnis. Atque eaque cum eveniet, facilis a tenetur perferendis exercitationem, dolore
-            obcaecati nisi in! Similique ab eum asperiores, deserunt explicabo quasi facilis quae dolorum error, fugit
-            repudiandae, officiis maxime impedit voluptates in natus commodi. Illo suscipit vitae consequatur optio
-            quisquam autem, dignissimos sed. Quia quas, velit possimus distinctio a ducimus explicabo alias repellendus
-            illo ea eveniet fugiat quos ad, hic vel inventore porro recusandae ipsam delectus corrupti! Magnam minus ab
-            quam placeat esse, beatae quo modi incidunt nobis?
-          </p>
+    <!-- About -->
+    <!-- <section class="about" id="About">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="./img/oldmancode.gif" alt="oldmancode" class="img-fluid">
+          </div>
+          <div class="col-md-6 ddd">
+            <h1>- Sobre -</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ut consequatur excepturi libero ipsa,
+              doloremque eaque similique. Quasi molestias, recusandae, voluptates quae cupiditate blanditiis,
+              praesentium
+              placeat aspernatur itaque voluptatem repudiandae suscipit ab magnam amet modi distinctio! Et aut fuga
+              adipisci odit a, nemo corporis eveniet. Natus obcaecati, quos earum dicta suscipit exercitationem
+              temporibus
+              necessitatibus sit quam, architecto commodi dolorum accusamus omnis vel repellat optio deleniti magnam
+              sint
+              perspiciatis voluptas aliquam accusantium odio molestias ab! Dolor magni mollitia quia, ullam pariatur
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section> -->
 
-  <footer class="contact" id="contact">
-    <div class="container">
-      <div class="row">
-        <div>
-          <form action="">
-          </form>
+    <!-- Projects -->
+    <section class="projectsSection" id="projects">
+      <div class="container">
+        <div class="projectsTitle">
+          <h1>- Projects -</h1>
+        </div>
+        <div class="row projects-container">
+          <div class="col-md-4 projects"></div>
+          <div class="col-md-4 projects"></div>
+          <div class="col-md-4 projects"></div>
         </div>
       </div>
-    </div>
-  </footer>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <h1>- Contacts -</h1>
+          <div class="col-md-6 leftContact">
+            <strong>Vamos conversar?</strong>
+            <p>Me envie um e-mail agora mesmo!</p>
+            <div class="iconsContact">
+              <p>Caso prefira, você também pode entrar em contato por Whatsapp ou Linkedin:</p>
+              <a href="https://wa.me/5511993177225" target="_blank"><i class="bi bi-whatsapp"></i></a>
+              <a href="https://www.linkedin.com/in/luiz-gustavo-58a322230/" target="_blank"><i
+                  class="bi bi-linkedin"></i></a>
+              <i></i>
+            </div>
+          </div>
+          <div class="form-container col-md-6">
+            <form action="https://formsubmit.co/luizgustavo.lc01@gmail.com" method="POST" class="row">
+              <div class="formName form col-md-6">
+                <input class="form-control " type="text" placeholder="Nome" name="name" required />
+              </div>
+              <div class="formEmail form col-md-6">
+                <input class="form-control" type="text" placeholder="Email" name="email" required />
+              </div>
+              <div class="formSubject form col-md-12">
+                <input class="form-control" type="text" placeholder="Assunto" name="assunto" required />
+              </div>
+              <div class="formTextArea form">
+                <textarea class="form-control" name="mensagem" cols="30" rows="10" placeholder="Mensagem"
+                  required></textarea>
+              </div>
+              <div class="formButton col-12">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+                <input type="hidden" name="_subject" value="New submission!">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
 
 
 
@@ -111,11 +154,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
-  <!-- AOS -->
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
 </body>
 
 </html>

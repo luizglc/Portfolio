@@ -1,9 +1,10 @@
+// sticky Navbar
 window.addEventListener('scroll', function () {
   let navBar = this.document.querySelector('.navBar');
   navBar.classList.toggle('sticky', window.scrollY > 0);
 })
 
-
+// Write in screen
 let messageArray = ['Desenvolvedor Web - Front End'];
 let textPosition = 0;
 let speed = 100;
@@ -18,7 +19,7 @@ typewriter = () => {
 window.addEventListener('load', typewriter)
 
 
-
+// Push my projects of github 
 const apiGit = document.querySelector('.projects-container')
 
 function apiGitHub() {
@@ -49,8 +50,9 @@ function apiGitHub() {
 
 apiGitHub()
 
-// Nav Bar 
 
+
+// Mobile Btn NavBar
 const menuBtn = document.getElementById('menu-btn');
 
 function toggleMenu() {
@@ -60,7 +62,7 @@ function toggleMenu() {
 menuBtn.addEventListener('click', toggleMenu);
 
 
-
+// click in anywhere to hide moboNav
 const removeMenuBtnc = document.getElementById('removeMenu');
 
 function removeMenu() {
