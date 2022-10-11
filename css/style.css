@@ -200,7 +200,6 @@ span {
 
 .leftContact {
   padding: 15px 0px;
-  text-align: center;
 }
 
 .leftContact strong {
@@ -210,6 +209,7 @@ span {
 
 .leftContact p {
   font-size: 20px;
+  text-align: center;
 }
 
 .iconsContact {
