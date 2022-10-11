@@ -138,7 +138,6 @@ span {
   align-items: center;
   height: auto;
   color: #fff;
-  padding: 0px 0px 40px;
 
 }
 
@@ -152,7 +151,6 @@ span {
 
 .about p {
   text-align: justify;
-  padding: px;
 }
 
 .textAbout {
@@ -278,7 +276,7 @@ span {
   }
 
   .textAbout {
-    padding: 0;
+    padding: 20px 0px;
   }
 
 
@@ -292,7 +290,8 @@ span {
   }
 
   .textAbout {
-    padding: 0;
+    padding: 20px 0px;
+    ;
   }
 
   .about img {
