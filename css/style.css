@@ -152,6 +152,7 @@ span {
 
 .about p {
   text-align: justify;
+  padding: px;
 }
 
 .textAbout {
@@ -449,6 +450,11 @@ span {
 
   .home {
     padding: 350px 0px;
+  }
+
+  .about p {
+
+    padding: 15px;
   }
 
 }
