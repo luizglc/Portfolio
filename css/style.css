@@ -138,6 +138,7 @@ span {
   align-items: center;
   height: auto;
   color: #fff;
+  padding-bottom: 30px;
 
 }
 
@@ -264,6 +265,17 @@ span {
 
 
 /* ========== Responsive ============ */
+@media (max-width: 991px) {
+
+
+  .about img {
+    width: 350px;
+    height: 350px;
+    margin-top: 150px;
+  }
+
+}
+
 
 @media (max-width: 970px) {
 
@@ -271,7 +283,6 @@ span {
   .about img {
     width: 370px;
     height: 340px;
-    margin-top: 0px;
     margin-top: 50px;
   }
 
