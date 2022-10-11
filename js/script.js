@@ -58,3 +58,14 @@ function toggleMenu() {
   moboNav.classList.toggle('active');
 }
 menuBtn.addEventListener('click', toggleMenu);
+
+
+
+const removeMenuBtnc = document.getElementById('removeMenu');
+
+function removeMenu() {
+  const moboNav = document.getElementById('moboNav');
+  moboNav.classList.remove('active');
+}
+
+removeMenuBtnc.addEventListener('click', removeMenu);
