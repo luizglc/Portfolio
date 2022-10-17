@@ -273,6 +273,32 @@ span {
 
 }
 
+/* Page Sucess */
+
+.sucessBody {
+  background-color: #1d1b1b;
+  font-weight: bolder;
+  text-align: center;
+  padding: 100px 0px;
+}
+
+.sucessBody h2 {
+  font-size: 50px;
+  color: #2bb673;
+}
+
+.sucessBody p {
+  font-weight: lighter;
+  text-align: center;
+  font-size: 30px;
+  color: #ddd;
+}
+
+.sucessBody a {
+  text-decoration: none;
+  text-align: center;
+}
+
 
 
 
